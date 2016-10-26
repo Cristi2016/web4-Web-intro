@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 3- CSS menu</title>
+    <style>
+        body{
+            margin:10px;
+            font-family:Verdana;
+        }
+
+        ul{
+            border:7px solid #175994;
+            margin:2px;
+            padding:0px;
+            width:470px;
+            list-style-type:none;
+            background:linear-gradient(#c8c5c5, #f3f3f3);
+        }
+
+        ul li{
+            display:inline-block;
+            padding:5px;
+            border-right:1px solid black;
+        }
+
+        .col3 a{
+            color:#fff;
+            text-decoration:none;
+        }
+
+        .col3 a:hover {
+            color:#c8c5c5;
+        }
+
+        .col2 {
+            border-right:none;
+        }
+
+        .col3{
+            margin-top:1px;
+            border-left:1px solid black;
+            border-right:1px solid black;
+            background:linear-gradient(red 10%,#0f4d85 80%, #5f92bf 15%);
+        }
+
+        .col4{
+            border-right:none;
+        }
+
+
+        .frame {
+            border:2px solid #0f4d85;
+            width:487px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <ul>
+            <li class="col1">Item 1</li>
+            <li class="col2">Item 2</li>
+            <li class="col3"><a href="#"> Hovered Item 3</a></li>
+            <li class="col4">Item 4</li>
+        </ul>
+    </div>
+<br />
+
+<div>
+    <table width=125>
+        <tr>
+            <td onMouseover="this.style.backgroundColor='#175994'" onMouseout="this.style.backgroundColor='white'">Menu item1</td>
+        </tr>
+        <tr>
+            <td onMouseover="this.style.backgroundColor='#175994'" onMouseout="this.style.backgroundColor='white'">Menu item2</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

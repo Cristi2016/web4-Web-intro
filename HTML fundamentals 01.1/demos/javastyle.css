@@ -1,0 +1,43 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+#left{
+  float:left;
+  width:400px;
+  height:700px;
+  margin:10px;
+  text-align:center;
+  border-right:1px solid black;
+}
+
+#right{
+  float:left;
+  width:400px;
+  height:700px;
+  margin:20px;
+}
+
+
+#amazon {
+  width:100px;
+}
+
+#left img {
+  width:300px;
+}
+
+h1{
+  text-align:center;
+}
+
+h5{
+  margin-left:-10px;
+}
+
+.icon {
+  vertical-align:bottom;
+  width:15px;
+  height:15px;
+}

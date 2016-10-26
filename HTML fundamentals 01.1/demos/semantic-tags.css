@@ -1,0 +1,41 @@
+header{
+  text-align:center;
+}
+
+nav ul {
+  list-style-type:none;
+  display:block;
+}
+
+nav ul li {
+  float:right;
+  margin:15px;
+  padding:15px;
+}
+
+nav ul:after {
+  content:"";
+  clear:both;
+  display:block;
+}
+
+aside {
+  float:left;
+  width:10%;
+}
+
+aside ul li {
+  font-size:1.5em;
+  margin:5px;
+  padding:5px;
+}
+
+section {
+  display:block;
+  width:85%;
+}
+
+
+footer {
+  text-align:center;
+}

@@ -1,0 +1,4 @@
+AuthUserFile "C:\Web4\Web intro\Forms\.htpasswd"
+AuthName "Zona privata"
+AuthType Basic
+require user cristi_bossu

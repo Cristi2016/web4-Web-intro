@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UI selectors</title>
+    <style>
+        input[type="text"]:enabled {
+            background-color:#ffff00;
+        }
+
+        input[type="text"]:disabled {
+            background-color:#dddddd;
+        }
+    </style>
+</head>
+<body>
+   <form action="">
+       First name: <input type="text" value="mickey"/> <br />
+       Last name: <input type="text" value="mickey" /> <br />
+       Country: <input type="text" disabled="disabled"/> <br />
+   </form>
+</body>
+</html>
